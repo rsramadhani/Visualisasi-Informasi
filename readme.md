@@ -56,4 +56,8 @@ Nama id dari elemen yang akan digunakan sebagai container grafik. Menampilkan da
     ...
     drawChart(region['dataArray'], 'pie','region');
     ...
+    
+ ### Hasil :
+ 
+ <img src="visin.jpeg">
  
