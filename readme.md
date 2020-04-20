@@ -44,13 +44,13 @@ Berdasarkan format data json yang ada, kita perlu untuk mengkonversi sehingga me
 
 Proses menggambar grafik dilakukan oleh fungsi drawChart(dataArray,type,container). Teknik ini dipakai untuk mengurangi penulisan kode secara berulang. Parameter pada fungsi drawChart() diantaranya adalah:
 
-* dataArray
+#### dataArray
 Data dalam format Array yang diperoleh dari hasil parsing data yang diperoleh dari variabel PHP. Proses parsing data dilakukan menggunakan Javascript menggunakan fungsi JSON.parse().
 
-* type
+#### type
 Tipe chart yang digunakan (‘pie', ‘bar', ‘column')
 
-* container
+#### container
 Nama id dari elemen yang akan digunakan sebagai container grafik. Menampilkan data penjualan berdasarkan region dilakukan oleh kode berikut:
 
     ...
