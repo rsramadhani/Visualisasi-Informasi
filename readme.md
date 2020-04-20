@@ -59,5 +59,5 @@ Nama id dari elemen yang akan digunakan sebagai container grafik. Menampilkan da
     
  ### Hasil :
  
- <img src="visin.jpeg">
+ <img src="Visin.jpeg">
  
