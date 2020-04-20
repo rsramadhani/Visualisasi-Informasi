@@ -34,31 +34,33 @@ Langkah berikutnya adalah menyusun cross tabulation berdasarkan baris data dan p
 Teknik visualisasi merupakan bentuk visual yang digunakan untuk menampilkan data. Secara umum teknik visualisasi terdiri dari Pie Chart (diagram lingkaran), Bar Chart (diagram batang), line chart (diagram garis), atau gabungan antara bar chart dan line chart. Pada tahap ini, kita menganisa teknik yang tepat untuk setiap cross tabulation yang sudah dibuat pada tahap sebelumnya.
 Menentukan layout. Tahap layouting merupakan tahap menentukan posisi dari setiap visualisasi pada layar utama visualisasi agar pengguna dapat menerima sejumlah besar informasi sekaligus. Oleh sebab itu halaman visualisasi sebaiknya merupakan single page sehingga aspek penyampaian informasi secara sekaligus dapat terpenuhi.
 
-Algoritma Konversi
-Berdasarkan format data json yang ada, kita perlu untuk mengkonversi sehingga menjadi tabulasi yang diharapkan. Ikuti algoritma berikut untuk membuatnya:
+### Algoritma Konversi
 
-Buatlah variabel array C.
-Lakukan perulangan untuk setiap data.
-Jika belum terdapat region yang sama didalam C simpan variabel region dan unit.
-Jika terdapat region yang sama dalam C maka jumlahkan unit.
+Berdasarkan format data json yang ada, kita perlu untuk mengkonversi sehingga menjadi tabulasi yang diharapkan. 
+* Buatlah variabel array C.
+* Lakukan perulangan untuk setiap data.
+* Jika belum terdapat region yang sama didalam C simpan variabel region dan unit.
+* Jika terdapat region yang sama dalam C maka jumlahkan unit.
 
-Kode di atas menunjukkan bahwa proses menggambar grafik dilakukan oleh fungsi drawChart(dataArray,type,container). Teknik ini dipakai untuk mengurangi penulisan kode secara berulang. Parameter pada fungsi drawChart() diantaranya adalah:
+Proses menggambar grafik dilakukan oleh fungsi drawChart(dataArray,type,container). Teknik ini dipakai untuk mengurangi penulisan kode secara berulang. Parameter pada fungsi drawChart() diantaranya adalah:
 
-dataArray
+### * dataArray
 Data dalam format Array yang diperoleh dari hasil parsing data yang diperoleh dari variabel PHP. Proses parsing data dilakukan menggunakan Javascript menggunakan fungsi JSON.parse().
 
-type
+### * type
 Tipe chart yang digunakan (‘pie', ‘bar', ‘column')
 
-container
+### * container
 Nama id dari elemen yang akan digunakan sebagai container grafik. Menampilkan data penjualan berdasarkan region dilakukan oleh kode berikut:
 
- ...
- drawChart(region['dataArray'], 'pie','region');
- ...
-Kode diatas menjukkan bahwa grafik digambar pada elemen dengan id region seperti yang ditunjukkan pada elemen HTML dibawah ini. (lihat kode pada bagian layout)
+    ...
+    drawChart(region['dataArray'], 'pie','region');
+    ...
 
- ...
- <div id="region" style="height:350px;"></div>
+Kode diatas menjukkan bahwa grafik digambar pada elemen dengan id region seperti yang ditunjukkan pada elemen HTML dibawah ini. 
+
+   ...
+   <div id="region" style="height:350px;"></div>
+   ...
 
  
