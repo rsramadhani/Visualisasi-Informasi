@@ -51,6 +51,7 @@ Data dalam format Array yang diperoleh dari hasil parsing data yang diperoleh da
 Tipe chart yang digunakan (‘pie', ‘bar', ‘column')
 
 #### container
+
 Nama id dari elemen yang akan digunakan sebagai container grafik. Menampilkan data penjualan berdasarkan region dilakukan oleh kode berikut:
 
     ...
@@ -59,5 +60,5 @@ Nama id dari elemen yang akan digunakan sebagai container grafik. Menampilkan da
     
  ### Hasil :
  <img src = "1.png">
-<img src="2.png>
+<img src="2.png">
 <img src="3.png">
