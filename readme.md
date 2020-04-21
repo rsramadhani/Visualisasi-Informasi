@@ -57,8 +57,33 @@ Nama id dari elemen yang akan digunakan sebagai container grafik. Menampilkan da
     ...
     drawChart(region['dataArray'], 'pie','region');
     ...
-    
- ### Hasil :
- <img src = "1.png">
+
+Untuk menambah suatu grafik visualisasi lagi, terlebih dahulu kita mengatur layout nya. Pertama dengan menambahkan tampilan layoutnya
+pada views > visin.php
+
+<img src="5.png>
+          
+Kemudian menambahkan variabel yang akan ditambahkan. Disini misalnya saya akan menambah kan var penjualan. 
+
+<img src="4.png>
+
+Variabel diatas berfungsi untuk mengambil data yang ada dari php. Kemudian tambahkan juga drawchart yang berguna untuk menggambar grafik pada layar
+
+<img src="6.png>
+          
+Untuk menampilkan data, gunakan fungsi drawchart. Ini digunakan sebagai id pemanggil chart apa yang akan digambar pada layar. Disini saya menambahkan Areachart, Scatterchart dan Linechart.
+
+<img src="7.png">
+
+Kemudian beralih ke controller. Buka file visin.php dalam folder controller. Tambahkan function index untuk menampilkan output
+
+<img src="8.png>
+          
+Kemudian tambahkan function untuk grafik yang akan dibuat
+
+<img src="9.png>
+
+### Hasil :
+<img src="1.png">
 <img src="2.png">
 <img src="3.png">
