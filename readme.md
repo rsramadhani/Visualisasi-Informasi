@@ -59,4 +59,5 @@ Nama id dari elemen yang akan digunakan sebagai container grafik. Menampilkan da
     
  ### Hasil :
  <img src = "1.png">
- 
+<img src="2.png>
+<img src="3.png">
