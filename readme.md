@@ -58,6 +58,5 @@ Nama id dari elemen yang akan digunakan sebagai container grafik. Menampilkan da
     ...
     
  ### Hasil :
- 
- <img src="visin.png">
+ <img src = "1.png">
  
