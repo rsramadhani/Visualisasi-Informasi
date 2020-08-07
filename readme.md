@@ -1,4 +1,4 @@
-# VISUALISASI INFORMASI - UTS
+# VISUALISASI INFORMASI
 
 
 Visualisasi data merupakan representasi visual dan teknik interaksi dengan memanfaatkan indera penglihatan manusia yang diolah dalam pikiran sehingga memungkinkan pengguna dapat melihat, menjelajahi, dan memahami sejumlah besar informasi sekaligus.Visualisasi informasi membantu pengguna untuk memperoleh pengetahuan melalui berbagai macam variabel data yang disajikan dalam bentuk grafis.
